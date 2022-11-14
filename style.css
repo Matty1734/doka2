@@ -1,0 +1,110 @@
+body{
+    font-size: 15.5px;
+    font-weight: normal;
+}
+.img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("back3.jpg");
+    background-size: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    position: relative;
+    max-width: 1170px;
+    margin: auto;
+    padding: 0 10px;
+    /*top: 245px;
+    right: 79px;*/
+
+}
+.mtb-3{
+    margin-top: 18.3rem;
+    margin-bottom: 3rem;
+    margin-left: 15.5rem;
+}
+.table{
+    position: relative;
+    width: 100%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 2);
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.table th, .table td{
+text-align: center;
+padding: 10px;
+}
+.table td:nth-child(2), .table td:nth-child(3), .table td:nth-child(4){
+padding-left: 4.7%;
+}
+.table td:nth-child(3){
+    padding-left: 5.1%;
+}
+.table td:nth-child(4){
+    padding-left: 5.3%;
+}
+.table th{
+    background-color: black;
+    color: darkgrey;
+}
+.table tr{
+    transition: all .3s;
+    color: darkgrey;
+    
+}
+.table tr:hover{
+    background-color: black;
+}
+.table-responsive{
+    overflow-x: auto;
+    -webkit-box-shadow: 0px 100px 100px 100px rgba(0, 0, 0, 0.7) inset;
+    -moz-box-shadow: 0px 100px 100px 100px rgba(0, 0, 0, 0.7) inset;
+    box-shadow: 0px 100px 100px 100px rgba(0, 0, 0, 0.7) inset;
+    
+}
+
+/*.table th:last-child{
+    padding-right: 800px;
+}
+.table td:last-child{
+    padding-right: 800px;
+}*/
+.th-box{
+    width: 0%;
+
+}
+/*.th-box:nth-child(3){
+    padding-right: 100%;
+}*/
+.th-box:last-child{
+    width: auto;
+}
+tbody tr td:first-child{
+    padding: 1px;
+    padding-left:7px;
+    padding-top: 5px;
+}
+th:nth-child(1){
+    padding-left: 1.5%;
+    width: 0;
+}
+th:nth-child(2){
+    padding-bottom: 10px;
+    padding-left: 2.2%;
+    width: 0;
+}
+th:nth-child(3){
+    padding-left: 2.8%;
+    width: 0;
+}
+th:nth-child(4){
+    padding-left: 3.1%;
+    width: 0;
+}
+/*td:nth-child(2), td:nth-child(3), td:nth-child(4){
+padding-left: 5%;
+}*/
